@@ -31,7 +31,7 @@
     <button v-if="showResults" @click="getIPInfo" class="btn btn-outline-secondary">IP Lookup</button>
 
     <div v-if="ipInfo">
-      <p class="display-6"><strong>ISP:</strong> {{ ipInfo.isp }}</p>
+      <p class="display-6"><strong>ISP:</strong> {{ ipInfo.org }}</p>
 
       <p class="display-6"><strong>City:</strong> {{ ipInfo.city }}</p>
 
