@@ -1,14 +1,30 @@
 # ZipCode-VueJs
+[Demo](https://sveta-kryukova.github.io/ZipCode-VueJs/)
 
-This template should help get you started developing with Vue 3 in Vite.
+![zipCode](https://user-images.githubusercontent.com/116656921/227334573-85e11063-dd8b-4f6f-a6ff-5887abf12d06.jpg)
 
-## Recommended IDE Setup
+## Description
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+<p>basic Single Page Application that searches data based on users’ ZIP code input (USA ZIP codes).
+That render data about users’ State, City based on their ZIP input.
+Main Page Button (linking to the first step of the single page application)
+IP Lookup Button (once it is pressed it renders data on ISP, City, Region, and Country of the user)
+</p>
 
-## Customize configuration
+## What have been used 
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+<ul>
+<li>VueJs</li>
+<li>CSS</li>
+<li>Bootstrap library</li>
+<li>axios</li>
+<li>vue-ip</li>
+<li>JavaScript</li>
+<li>HTML</li>
+</ul>
+
+[Background Sourse](https://wweb.dev/resources/animated-css-background-generator)
+
 
 ## Project Setup
 
