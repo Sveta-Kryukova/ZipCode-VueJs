@@ -77,7 +77,7 @@ export default {
         });
     },
     goToHome() {
-      window.location.href = '/';
+      window.location.href = 'https://sveta-kryukova.github.io/ZipCode-VueJs/';
     },
   },
 };
