@@ -1,7 +1,7 @@
 # ZipCode-VueJs
 [Demo](https://sveta-kryukova.github.io/ZipCode-VueJs/)
 
-![zipCode](https://user-images.githubusercontent.com/116656921/227334573-85e11063-dd8b-4f6f-a6ff-5887abf12d06.jpg)
+![zip](https://user-images.githubusercontent.com/116656921/227536186-04aa8ba7-c4b5-491b-a727-30f1b9b45620.jpg)
 
 ## Description
 
