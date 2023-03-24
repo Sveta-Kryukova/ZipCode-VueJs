@@ -3,9 +3,10 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  max-width: 600px;
 }
 
-.wrapper> *:not(:last-child) {
+.wrapper > *:not(:last-child) {
   margin-bottom: 10px;
 }
 
@@ -13,13 +14,16 @@ h1 {
   text-align: center;
 }
 
-h1, p, label, button {
-  color: beige;
+h1,
+p,
+label,
+button {
+  color: gainsboro;
 }
 
 @keyframes move {
   100% {
-      transform: translate3d(0, 0, 1px) rotate(360deg);
+    transform: translate3d(0, 0, 1px) rotate(360deg);
   }
 }
 
@@ -45,7 +49,6 @@ h1, p, label, button {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
-
 
 .background span:nth-child(0) {
   color: #00ffee;
