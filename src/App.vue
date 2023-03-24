@@ -77,7 +77,7 @@ export default {
         });
     },
     goToHome() {
-      window.location.href = '/home';
+      window.location.href = '/ZipCode-VueJs/';
     },
   },
 };
