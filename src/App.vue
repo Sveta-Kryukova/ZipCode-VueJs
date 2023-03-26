@@ -93,6 +93,14 @@ export default {
       errorMessage: "",
     };
   },
+  created() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const utm1 = urlParams.get("utm1");
+  const utm2 = urlParams.get("utm2");
+  const referer = document.referrer;
+
+  console.log(utm1, utm2, referer);
+},
   methods: {
     searchZipCode() {
       axios
